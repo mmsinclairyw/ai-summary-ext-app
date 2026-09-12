@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ai-summary-ext-app",
+  "version": "0.1.0",
+  "description": "Chrome extension that summarizes the current page with an LLM",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "options_page": "options.html"
+}
